@@ -1,0 +1,302 @@
+@font-face {
+    font-family: Nightydemo;
+    src: url(/fonts/Nightydemo.otf) format(otf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(/fonts/Outfit-VariableFont_wght.ttf) format(ttf);
+}
+
+@font-face {
+    font-family: Soulness;
+    src: url(/fonts/Soulness.otf) format(otf);
+}
+
+@font-face {
+    font-family: GiveAway;
+    src: url(/fonts/GiveAway.otf) format(otf);
+}
+
+body {
+    font-family: Outfit, Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 22px;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+nav li {
+    display: inline-block;
+    margin: 7px;
+    padding-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+} 
+
+.logo {
+    font-family: Soulness;
+    color: #03A696;
+    font-size: 2.5rem;
+    margin-left: 15px;
+}
+
+.line {
+    border-bottom: 1px solid #D9998B;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 80px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-family: Soulness;
+    color: #074040;
+    font-size: 2.2rem;
+}
+
+/* Homepage */
+
+.hero {
+    background-image: url(/images/home_hero_filter.png);
+    min-height: 70vh;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: top;
+    position: relative;
+  }
+
+.first-section {
+    display: flex;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.first-section-div {
+    padding: 0rem 2rem;
+    border-right: 1px solid #074040;
+}
+
+.first-section-img {
+    max-width: 70%;
+    border-radius: 40%;
+    display: flex;
+    margin: auto;
+}
+
+.third-section {
+    text-align: center;
+    margin: 5rem 20rem;
+    font-family: Give Away;
+    font-size: 1.3rem;
+    color: #074040
+}
+
+@media (min-width: 430px) and (max-width: 1200px) {
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+        padding-top: 2rem;
+    }        
+}
+
+
+/*About*/
+
+.hero-about {
+    background-image: url(/images/friut_hero.jpg);
+    min-height: 40vh;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: bottom;
+    position: relative;
+}
+
+.container {
+    height: 800px;
+}
+
+.about-section {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 50px auto;
+    border: 1px solid #F2DCD8;
+    padding: 20px;
+    z-index: 1;
+}
+
+.about-content {
+    height: 300px;
+    padding: 2rem;
+    background-color: #F2DCD8;
+    z-index: 1;
+}
+
+.about-img {
+    border-radius: 40%;
+    max-width: 500px;
+    position: relative;
+    margin-left: 230px;
+    z-index: 2;
+}
+
+
+/*Contact*/
+
+main {
+    min-height: 20rem;
+}
+
+.background-contact {
+    background-image: url(/images/nuts_and_lentils.jpg);
+    background-size: cover;
+}
+
+.contact {
+    background-color: #FDFAF7;
+    max-width: 70%;
+    margin: auto;
+    height: 600px;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 2rem 3rem;
+    border-bottom: 1px solid #D9998B; 
+}
+
+#contactForm {
+    max-width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.errorForm {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.contact-submit {
+background-color: #D9998B;
+margin-top: 2em;
+padding: 0.7rem 2.5rem;
+}
+
+
+/*Recipe*/
+
+.hero-blog {
+    background-image: url(/images/hamburger_hero.jpg);
+    min-height: 40vh;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: bottom;
+    position: relative;
+}
+
+.reci {
+    font-size: 1rem;
+    font-family: ;
+}
+
+.recipes-text, .recipes-text_content {
+    text-align: center;
+}
+
+section
+
+/*Newsletter*/
+
+.news {
+    height: 200px;
+    text-align: center;
+}
+
+input {
+    display: inline;
+}
+
+@media (max-width: 900px) {
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #F2DCD8;
+    font-size: 14px;
+}
+
+.footer-content {    
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer-img {
+    max-width: 80px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.footer-copy {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-top: 1px solid #D9998B;   
+}
+
+.error {
+    background: rgb(240, 178, 178);
+    padding: 5px;
+    border: 3px solid rgb(211, 3, 3);
+    color: rgb(209, 6, 6);
+    font-size: 20px;
+    margin-top: 2%;
+    
+}
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="The contact page of Good Food Mood, contact us if you want to know more about an eating healthy">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <link href="css/styles.css" rel="stylesheet">
+        <title>Good Food Mood | Blogs</title>   
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo-removebg-preview.png" alt="Logo of Good Food Mood" class="logo-img"></a>
+            <div class="line">
+                <a href="index.html" class="logo">Good Food Mood</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="current">Contact</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="background-contact">
+            <section>
+                <div class="contact">
+                    <div class="contact-info">
+                        <h1>Contact</h1>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                    </div>
+                    <form id="contactForm">
+                        <div>
+                            <label>
+                                Name (This must be more than 5 characters)
+                                <input name="firstName" id="firstName">
+                                <div class="errorForm" id="errorFirstName">Must be more than 5 characters</div>
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                Email (Must be a valid email address)
+                                <input name="email" id="email">
+                            </label>
+                            <div class="errorForm" id="errorEmail">Not a valid email address</div>
+                        </div>
+                        <div>
+                            <label>
+                                Subject (Must be more than 15 characters)
+                                <input name="subject" id="subject">
+                                <div class="errorForm" id="errorSubject">(Must be more than 15 characters)</div>
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                Message (Must be more than 25 characters)
+                                <input name="message" id="message">
+                                <div class="errorForm" id="errorMessage">(Must be more than 25 characters)</div>
+                            </label>
+                        </div>
+                        <button class="contact-submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <h3>Contact</h3>
+                    <li>Email: GoodFood@mood.com</li>
+                    <li>Telephone: 555 555 555</li>
+                </div>
+                <div>
+                    <img src="images/logo-removebg-preview.png" class="footer-img">
+                </div>
+                <div>
+                    <h3>Good Food Mood</h3>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>                
+                </div>
+            </div>           
+            <div class="footer-copy">
+                <p>Copyright &copy; by Good Food Mood</p>
+            </div>            
+        </footer>
+        <script src="js/contact.js"></script>
+    </body>
+
+</html>

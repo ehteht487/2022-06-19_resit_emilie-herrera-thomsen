@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The homepage of Good Food Mood, search for healthy and delicious recipes. Loose or maintain weight and enjoy eating healthy and green.">
+    <title>Good Food Mood | Home</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo-removebg-preview.png" alt="Logo of Good Food Mood" class="logo-img"></a>
+        <div class="line">
+            <a href="index.html" class="logo">Good Food Mood</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="recipes.html" class="current">Recipes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-blog"></section>
+        <section class="recipes-text">
+            <h1>Recipes</h1>
+        </section>
+        <section>
+            <div class="recipes-text_content">
+                <h2 class="reci">Input your ingredients and find a tasty recipe</h2>
+                <p>Say you are craving chicken and pasta, just enter chicken pasta and search</p>
+                <form action="submit" method="post">
+                    <input type="text" name="search" id="search" placeholder="Search ingredients">
+                    <input type="submit" value="Search" class="search-button">
+                </form>
+            </div>
+            <div class="post-container">
+
+            </div>
+        </section>
+        <section class="news">
+            <h3>Sign up for updates and get fresh and tasty recipes weekly</h3>
+            <div class="newletter">
+                <form action="submit" method="post">
+                <input type="text" name="firstName" id="firstName" class="" placeholder="First name..">
+                <input type="text" name="email" id="email" class="" placeholder="Email.. Must be valid">
+            <div class="errorForm" id="errorEmail">Not a valid email address</div>
+            <input type="submit" value="Subscribe">
+            </form>
+            </div>               
+        </section>      
+    </main>   
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Contact</h3>
+                <li>Email: GoodFood@mood.com</li>
+                <li>Telephone: 555 555 555</li>
+            </div>
+            <div>
+                <img src="images/logo-removebg-preview.png" class="footer-img">
+            </div>
+            <div>
+                <h3>Good Food Mood</h3>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="recipes.html" class="current">Recipes</a></li>                
+            </div>
+        </div>           
+        <div class="footer-copy">
+            <p>Copyright &copy; by Good Food Mood</p>
+        </div>            
+    </footer> 
+    <script src="js/recipes.js"></script>
+</body>
+</html>
