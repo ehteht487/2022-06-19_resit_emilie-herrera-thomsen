@@ -8,45 +8,49 @@
         <title>Good Food Mood | Home</title>   
     </head>
     <body>
-        <header>
-            <a href="index.html"><img src="images/logo-removebg-preview.png" alt="Logo of Good Food Mood" class="logo-img"></a>
-            <div class="line">
-                <a href="index.html" class="logo">Good Food Mood</a>
+        <header class="hero">        
+            <div class="menu">            
                 <nav>
                     <ul>
                         <li><a href="index.html" class="current">Home</a></li>
                         <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                <a href="index.html"><img src="images/logo-removebg-preview.png" alt="Logo of Good Food Mood" class="logo-img"></a>
+                <nav>
+                    <ul>                        
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="recipes.html">Recipes</a></li>
                     </ul>
                 </nav>
+            </div>            
+        </header>        
+        <main> 
+            <div class="hero-content">
+                <p class="hero-content_text">Good food mood</p>
+                <a class="hero-content_button" href="recipes.html">Find exiting recipes</a>
             </div>
-        </header>
-        <main>
-            <div class="hero"></div>
             <section class="first-section">
                 <div class="first-section-div">
-                    <h1>Good Food Mood</h1>
-                    <p>Find exiting new recipes for a healthy diet. Good for you, good for the everyone</p>
+                    <h1>Good food should be easy</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere, incidunt, maiores aperiam impedit, rem exercitationem explicabo quidem ad quasi cumque perferendis deleniti vitae eligendi!</p>
                 </div>
-                <div>
+                <div class="first-section-div">
                     <img src="images/man_cooking.jpg" class="first-section-img" alt="Man cooking">
-                </div>            
-
-            </section class="second-section">
-            <section>
+                </div>          
             </section>
-            <section class="third-section">
-                <p>"Eating healthy has helped both my skin, body and soul feel better, while at the same time i support sustainable use of our planets resources " - Susan (happy recipe user)
-                </p>
+            <section class="second-section">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatum nobis aut natus veniam debitis ab ut obcaecati, molestiae odit officia, facere incidunt ullam quaerat laboriosam deleniti iusto sequi! Voluptates"</p>
             </section>
             <section class="news">
-                <h3>Sign up for updates and get fresh and tasty recipes weekly</h3>
+                <h2>Sign up for updates</h2>
+                <p>Get fresh and tasty recipes weekly</p>
                 <div class="newletter">
-                    <form action="submit" method="post">
+                    <form id="contactForm"  class="contact-form">
                         <input type="text" name="firstName" id="firstName" class="" placeholder="First name..">
-                        <input type="text" name="email" id="first_name" class="" placeholder="Email.. Must be valid">
-                        <input type="submit" value="Subscribe">                    
+                        <input type="text" name="email" id="email" placeholder="Email.. Must be valid">
+                        <div class="errorForm" id="errorEmail">Not a valid email address</div> 
+                        <button class="button">Subscribe</button>
                     </form>
                 </div>               
             </section>
@@ -62,7 +66,7 @@
                     <img src="images/logo-removebg-preview.png" class="footer-img">
                 </div>
                 <div>
-                    <h3>Conscious Vegan</h3>
+                    <h3>Good Food Mood</h3>
                     <li><a href="index.html" class="current">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -73,6 +77,6 @@
                 <p>Copyright &copy; by Good Food Mood</p>
             </div>            
         </footer>
-        <script src="js/news.js"></script>
+        <script src="js/contact.js"></script>
     </body>
 </html>
